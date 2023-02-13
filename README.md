@@ -234,3 +234,4 @@ a list of things to check before you mark a project as complete
 
 - [ ] Pagination link tags: Provide rel="prev" and rel="next" to indicate paginated content.
 
+*taken from THE FRONT END CHECKLIST https://frontendchecklist.io/*
