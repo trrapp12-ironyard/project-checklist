@@ -2,7 +2,6 @@
 a list of things to check before you mark a project as complete
 
 <br/>
-<br/>
 
 ### HEAD
 
@@ -45,7 +44,6 @@ a list of things to check before you mark a project as complete
 - [ ] Twitter Card:
 
 <br/>
-<br/>
 
 ### HTML 
 
@@ -81,7 +79,6 @@ a list of things to check before you mark a project as complete
 
 - [ ] Webfont loader: Control loading behavior with a webfont loader.
 
-<br/>
 <br/>
 
 ### CSS
@@ -123,7 +120,6 @@ a list of things to check before you mark a project as complete
 - [ ] Reading direction: All pages need to be tested for LTR and RTL languages if they need to be supported.
 
 <br/>
-<br/>
  
 ### JAVASCRIPT
  
@@ -146,7 +142,6 @@ a list of things to check before you mark a project as complete
 - [ ] ESLint: No errors are flagged by ESLint (based on your configuration or standards rules).
 
 <br/>
-<br/>
  
 ### IMAGES
 
@@ -167,7 +162,6 @@ a list of things to check before you mark a project as complete
 
 - [ ] Lazy loading: Images are lazyloaded (A noscript fallback is always provided).
 
-<br/>
 <br/>
  
 ### ACCESSIBILITY
@@ -193,8 +187,12 @@ a list of things to check before you mark a project as complete
 - [ ] Screen reader: All pages were tested in two or more screen readers (such as JAWS, VoiceOver, and NVDA).
 
 - [ ] Focus style: If the focus is disabled, it is replaced by visible state in CSS.
+ 
+<br/>
 
 ### PERFORMANCE
+ 
+---
 
 - [ ] Page weight: The weight of each page is between 0 and 500 KB.
 
@@ -216,7 +214,6 @@ a list of things to check before you mark a project as complete
 
 - [ ] Google PageSpeed: All your pages were tested (not only the homepage) and have a score of at least 90/100.
  
-<br/>
 <br/>
  
 ### SEO
