@@ -1,145 +1,133 @@
 # project-checklist
 a list of things to check before you mark a project as complete
 
-HEAD
+<br/>
+<br/>
+
+### HEAD
+
+---
 
 - [ ] Doctype: The Doctype is HTML5 and is at the top of all your HTML pages.
 
-Charset: The charset declared (UTF-8) is declared correctly.
+- [ ] Charset: The charset declared (UTF-8) is declared correctly.
 
-Viewport: The viewport is declared correctly.
+- [ ] Viewport: The viewport is declared correctly.
 
-Title: A title is used on all pages
+- [ ] Title: A title is used on all pages
 
-Description: A meta description is provided, it is unique and doesn't possess more than 150 characters.
+- [ ] Description: A meta description is provided, it is unique and doesn't possess more than 150 characters.
 
-Favicons: Each favicon has been created and displays correctly.
+- [ ] Favicons: Each favicon has been created and displays correctly.
 
-Apple Web App Meta: Apple meta-tags are present.
+- [ ] Apple Web App Meta: Apple meta-tags are present.
 
-Windows Tiles: Windows tiles are present and linked.
+- [ ] Windows Tiles: Windows tiles are present and linked.
 
-Canonical: Use rel="canonical" to avoid duplicate content.
+- [ ] Canonical: Use rel="canonical" to avoid duplicate content.
 
-Language attribute: The <code>lang</code> attribute of your website is specified and related to the language of the current page.
+- [ ] Language attribute: The <code>lang</code> attribute of your website is specified and related to the language of the current page.
 
-Direction attribute: The direction of lecture is specified on the html tag (It can be used on another HTML tag).
+- [ ] Direction attribute: The direction of lecture is specified on the html tag (It can be used on another HTML tag).
 
-Alternate language: The language tag of your website is specified and related to the language of the current page.
+- [ ] Alternate language: The language tag of your website is specified and related to the language of the current page.
 
-Conditional comments: Conditional comments are present for IE if needed.
+- [ ] Conditional comments: Conditional comments are present for IE if needed.
 
-RSS feed: If your project is a blog or has articles, an RSS link was provided.
+- [ ] RSS feed: If your project is a blog or has articles, an RSS link was provided.
 
-Inline critical CSS: The inline critical CSS is correctly injected in the HEAD.
-HTML TAG CSS PERFORMANCE
+- [ ] Inline critical CSS: The inline critical CSS is correctly injected in the HEAD.
 
-CSS order: All CSS files are loaded before any JavaScript files in the HEAD
-HTML TAG
+- [ ] CSS order: All CSS files are loaded before any JavaScript files in the HEAD
 
-Facebook Open Graph:
-SOCIAL META TESTING
+- [ ] Facebook Open Graph:
 
-Twitter Card:
+- [ ] Twitter Card:
 
-0 % HTML items are ✓
+<br/>
+<br/>
+
+### HTML 
+
+---
+
+- [ ] HTML5 Semantic Elements: HTML5 Semantic Elements are used appropriately (header, section, footer, main...).
+
+- [ ] Error pages: Error 404 page and 5xx exist
+
+- [ ] Noopener: In case you are using external links with target="_blank", your link should have a rel="noopener" attribute to prevent tab nabbing. If you need to support older versions of Firefox, use rel="noopener noreferrer"
+
+- [ ] Clean up comments: Unnecessary code needs to be removed before sending the page to production.
+
+- [ ] W3C compliant: All pages need to be tested with the W3C validator to identify possible issues in the HTML code.
+
+- [ ] HTML Lint: I use tools to help me analyze any issues I could have on my HTML code.
+
+- [ ] Link checker: There are no broken links in my page, verify that you don't have any 404 error.
+
+- [ ] Adblockers test: Your website shows your content correctly with adblockers enabled
+
+<br/>
+<br/>
+
+### WEBFONTS
+
+---
+
+
+- [ ] Webfont format: WOFF, WOFF2 and TTF are supported by all modern browsers.
+
+- [ ] Webfont size: Webfont sizes don't exceed 100 KB (all variants included).
+
+- [ ] Webfont loader: Control loading behavior with a webfont loader.
+
+<br/>
+<br/>
+
+### CSS
+
+---
+
+- [ ] Responsive Web Design: The website is using responsive web design.
+
+- [ ] CSS Print: A print stylesheet is provided and is correct on each page.
+
+- [ ] Unique ID: If IDs are used, they are unique to a page.
+
+- [ ] Reset CSS: A CSS reset (reset, normalize or reboot) is used and up to date.
+
+- [ ] JS prefix: All classes (or id- used in JavaScript files) begin with js- and are not styled into the CSS files.
+
+- [ ] Embedded or inline CSS: Avoid at all cost embeding CSS in <style> tags or using inline CSS
+
+- [ ] Vendor prefixes: CSS vendor prefixes are used and are generated accordingly with your browser support compatibility.
+
+- [ ] Concatenation: CSS files are concatenated in a single file (Not for HTTP/2).
+
+- [ ] Minification: All CSS files are minified.
+
+- [ ] Non-blocking: CSS files need to be non-blocking to prevent the DOM from taking time to load.
+
+- [ ] Stylelint: All CSS or SCSS files are without any errors.
+
+- [ ] Responsive web design: All pages were tested with the correct breakpoints.
+
+- [ ] CSS Validator: The CSS was tested and pertinent errors were corrected.
+
+- [ ] Desktop Browsers: All pages were tested on all current desktop browsers (Safari, Firefox, Chrome, Internet Explorer, EDGE...)
+
+- [ ] Mobile Browsers: All pages were tested on all current mobile browsers (Native browser, Chrome, Safari...)
+
+- [ ] OS: All pages were tested on all current OS (Windows, Android, iOS, Mac...)
+
+- [ ] Reading direction: All pages need to be tested for LTR and RTL languages if they need to be supported.
+
+<br/>
+<br/>
  
+### JAVASCRIPT
  
-
-HTML5 Semantic Elements: HTML5 Semantic Elements are used appropriately (header, section, footer, main...).
-HTML BEST PRACTICES
-
-Error pages: Error 404 page and 5xx exist
-HTML BEST PRACTICES
-
-Noopener: In case you are using external links with target="_blank", your link should have a rel="noopener" attribute to prevent tab nabbing. If you need to support older versions of Firefox, use rel="noopener noreferrer"
-HTML BEST PRACTICES SECURITY
-
-Clean up comments: Unnecessary code needs to be removed before sending the page to production.
-HTML BEST PRACTICES
-
-W3C compliant: All pages need to be tested with the W3C validator to identify possible issues in the HTML code.
-HTML TESTING
-
-HTML Lint: I use tools to help me analyze any issues I could have on my HTML code.
-HTML TESTING
-
-Link checker: There are no broken links in my page, verify that you don't have any 404 error.
-HTML TESTING
-
-Adblockers test: Your website shows your content correctly with adblockers enabled
-HTML TESTING
-WEBFONTS
-
-0 % Webfonts items are ✓
- 
- 
-
-Webfont format: WOFF, WOFF2 and TTF are supported by all modern browsers.
-WEBFONT
-
-Webfont size: Webfont sizes don't exceed 100 KB (all variants included).
-WEBFONT
-
-Webfont loader: Control loading behavior with a webfont loader.
-WEBFONT
-CSS
-
-0 % CSS items are ✓
- 
- 
-
-Responsive Web Design: The website is using responsive web design.
-CSS
-
-CSS Print: A print stylesheet is provided and is correct on each page.
-CSS
-
-Unique ID: If IDs are used, they are unique to a page.
-CSS
-
-Reset CSS: A CSS reset (reset, normalize or reboot) is used and up to date.
-CSS
-
-JS prefix: All classes (or id- used in JavaScript files) begin with js- and are not styled into the CSS files.
-JAVASCRIPT BEST PRACTICES
-
-Embedded or inline CSS: Avoid at all cost embeding CSS in <style> tags or using inline CSS
-CSS
-
-Vendor prefixes: CSS vendor prefixes are used and are generated accordingly with your browser support compatibility.
-CSS
-
-Concatenation: CSS files are concatenated in a single file (Not for HTTP/2).
-CSS PERFORMANCE
-
-Minification: All CSS files are minified.
-CSS PERFORMANCE
-
-Non-blocking: CSS files need to be non-blocking to prevent the DOM from taking time to load.
-CSS PERFORMANCE
-
-Stylelint: All CSS or SCSS files are without any errors.
-CSS TESTING
-
-Responsive web design: All pages were tested with the correct breakpoints.
-CSS TESTING
-
-CSS Validator: The CSS was tested and pertinent errors were corrected.
-CSS TESTING
-
-Desktop Browsers: All pages were tested on all current desktop browsers (Safari, Firefox, Chrome, Internet Explorer, EDGE...)
-CSS TESTING
-
-Mobile Browsers: All pages were tested on all current mobile browsers (Native browser, Chrome, Safari...)
-CSS TESTING
-
-OS: All pages were tested on all current OS (Windows, Android, iOS, Mac...)
-CSS TESTING
-
-Reading direction: All pages need to be tested for LTR and RTL languages if they need to be supported.
-CSS TESTING
-JAVASCRIPT
+---
 
 0 % JavaScript items are ✓
  
