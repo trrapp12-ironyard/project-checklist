@@ -129,97 +129,72 @@ a list of things to check before you mark a project as complete
  
 ---
 
-0 % JavaScript items are ✓
+- [ ] JavaScript Inline: You don't have any JavaScript code inline (mixed with your HTML code).
+
+- [ ] Concatenation: JavaScript files are concatenated.
+
+- [ ] Minification: JavaScript files are minified (you can add the .min suffix).
+
+- [ ] JavaScript security:
+
+- [ ] noscript tag: Use `<noscript>` tag in the HTML body if a script type on the page is unsupported or if scripting is currently turned off in the browser. This will be helpful in client-side rendering heavy apps such as React.js.
+
+- [ ] Non-blocking: JavaScript files are loaded asynchronously using async or deferred using defer attribute.
+
+- [ ] Modernizr: If you need to target some specific features you can use a custom Modernizr to add classes in your <html> tag.
+
+- [ ] ESLint: No errors are flagged by ESLint (based on your configuration or standards rules).
+
+<br/>
+<br/>
  
- 
+### IMAGES
 
-JavaScript Inline: You don't have any JavaScript code inline (mixed with your HTML code).
-JAVASCRIPT
-
-Concatenation: JavaScript files are concatenated.
-JAVASCRIPT
-
-Minification: JavaScript files are minified (you can add the .min suffix).
-JAVASCRIPT
-
-JavaScript security:
-JAVASCRIPT SECURITY
-
-noscript tag: Use `<noscript>` tag in the HTML body if a script type on the page is unsupported or if scripting is currently turned off in the browser. This will be helpful in client-side rendering heavy apps such as React.js.
-JAVASCRIPT
-
-Non-blocking: JavaScript files are loaded asynchronously using async or deferred using defer attribute.
-JAVASCRIPT PERFORMANCE
-
-Modernizr: If you need to target some specific features you can use a custom Modernizr to add classes in your <html> tag.
-JAVASCRIPT
-
-ESLint: No errors are flagged by ESLint (based on your configuration or standards rules).
-JAVASCRIPT TESTING
-IMAGES
-
-0 % Images items are ✓
- 
+---
  
 
-Optimization: All images are optimized to be rendered in the browser. WebP format could be used for critical pages (like Homepage)
-IMAGES BEST PRACTICES
+- [ ] Optimization: All images are optimized to be rendered in the browser. WebP format could be used for critical pages (like Homepage)
 
-Picture/Srcset: You use picture/srcset to provide the most appropriate image for the current viewport of the user.
-IMAGES
+- [ ] Picture/Srcset: You use picture/srcset to provide the most appropriate image for the current viewport of the user.
 
-Retina: You provide layout images 2x or 3x, support retina display.
-IMAGES
+- [ ] Retina: You provide layout images 2x or 3x, support retina display.
 
-Sprite: Small images are in a sprite file (in the case of icons, they can be in an SVG sprite image).
-IMAGES
+- [ ] Sprite: Small images are in a sprite file (in the case of icons, they can be in an SVG sprite image).
 
-Width and Height: Set width and height attributes on <img> if the final rendered image size is known (can be omitted for CSS sizing).
-IMAGES
+- [ ] Width and Height: Set width and height attributes on <img> if the final rendered image size is known (can be omitted for CSS sizing).
 
-Alternative text: All <img> have an alternative text which describe the image visually.
-IMAGES
+- [ ] Alternative text: All <img> have an alternative text which describe the image visually.
 
-Lazy loading: Images are lazyloaded (A noscript fallback is always provided).
-IMAGES PERFORMANCE
-ACCESSIBILITY
+- [ ] Lazy loading: Images are lazyloaded (A noscript fallback is always provided).
 
-0 % Accessibility items are ✓
+<br/>
+<br/>
  
- 
+### ACCESSIBILITY
 
-Progressive enhancement: Major functionality like main navigation and search should work without JavaScript enabled.
-BEST PRACTICES
+---
 
-Color contrast: Color contrast should at least pass WCAG AA (AAA for mobile).
-BEST PRACTICES
+- [ ] Progressive enhancement: Major functionality like main navigation and search should work without JavaScript enabled.
 
-H1: All pages have an H1 which is not the title of the website.
-BEST PRACTICES SEO
+- [ ] Color contrast: Color contrast should at least pass WCAG AA (AAA for mobile).
 
-Headings: Headings should be used properly and in the right order (H1 to H6).
-BEST PRACTICES
+- [ ] H1: All pages have an H1 which is not the title of the website.
 
-Specific HTML5 input types are used: This is especially important for mobile devices that show customized keypads and widgets for different types.
+- [ ] Headings: Headings should be used properly and in the right order (H1 to H6).
 
-Label: A label is associated with each input form element. In case a label can't be displayed, use aria-label instead.
+- [ ] Specific HTML5 input types are used: This is especially important for mobile devices that show customized keypads and widgets for different types.
 
-Accessibility standards testing: Use the WAVE tool to test if your page respects the accessibility standards.
-TESTING
+- [ ] Label: A label is associated with each input form element. In case a label can't be displayed, use aria-label instead.
 
-Keyboard navigation: Test your website using only your keyboard in a previsible order. All interactive elements are reachable and usable.
-TESTING
+- [ ] Accessibility standards testing: Use the WAVE tool to test if your page respects the accessibility standards.
 
-Screen reader: All pages were tested in two or more screen readers (such as JAWS, VoiceOver, and NVDA).
-TESTING
+- [ ] Keyboard navigation: Test your website using only your keyboard in a previsible order. All interactive elements are reachable and usable.
 
-Focus style: If the focus is disabled, it is replaced by visible state in CSS.
-TESTING
-PERFORMANCE
+- [ ] Screen reader: All pages were tested in two or more screen readers (such as JAWS, VoiceOver, and NVDA).
 
-0 % Performance items are ✓
- 
- 
+- [ ] Focus style: If the focus is disabled, it is replaced by visible state in CSS.
+
+### PERFORMANCE
 
 Page weight: The weight of each page is between 0 and 500 KB.
 PERFORMANCE
