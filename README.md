@@ -7,6 +7,8 @@ a list of things to check before you mark a project as complete
 
 ---
 
+<span style="background-color: #FFFF00">Marked text</span>
+
 - [ ] Doctype: The Doctype is HTML5 and is at the top of all your HTML pages.
 
 - [ ] Charset: The charset declared (UTF-8) is declared correctly.
