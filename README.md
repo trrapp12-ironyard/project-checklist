@@ -3,6 +3,48 @@ a list of things to check before you mark a project as complete
 
 <br/>
 
+### PERSONAL EXPERIENCE
+
+---
+
+- [ ] make sure that all margins are consistent (either all pushing down or all pushing away, whichever is easier to understand)
+
+- [ ] make sure that there is always an h1 tag
+
+- [ ] make sure that you are using h1, h2, h3, h4, etc in their order, not skipping around
+
+- [ ] don't change the size of h1 tags (set up the size in the body tag)
+
+- [ ] make sure that The optimal line height ratio (line height ÷ font size) is equal to the golden ratio. (1.6)
+
+- [ ] make sure that line widths are no more than 40-80 characters per line
+
+- [ ] base font size between 18 and 26 px
+
+- [ ] use fluid type to deliver small type for small screens, medium for medium and large for large
+
+- [ ] use ``` * { margin: 0px; padding: 0px; box-sizing: border box} ``` and ``` <meta name="viewport" content="width=device-width, initial-scale=1.0"> ``` to normalize sizes and create a basis for responsive design
+
+- [ ] make sure you get rid of Create React App extras
+
+- [ ] make sure you update the favicon
+
+- [ ] make sure you update the meta tags
+
+- [ ] deploying --  make sure you take the project out of the parent folder you put them in (i.e. if you create a 'React-Jokes' master folder so that you could do your git-clone in that folder so you don't accidentally have a .git file initialized in the whole big project folder... you know, that whole big mess...) than you will have to get rid of the outermost folder so Netlify will look for the package.json in the right place.  Or you could do the hacky thing of telling it to look one level deeper
+
+- [ ] make sure that there is hierarchy in sizes
+
+- [ ] make sure there is difference in font weights
+
+- [ ] make sure you have a good font-pairing (at least two fonts)
+
+- [ ] use color
+
+- [ ] make sure there is breathing room in margins
+
+
+
 ### HEAD
 
 ---
