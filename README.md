@@ -196,66 +196,44 @@ a list of things to check before you mark a project as complete
 
 ### PERFORMANCE
 
-Page weight: The weight of each page is between 0 and 500 KB.
-PERFORMANCE
+- [ ] Page weight: The weight of each page is between 0 and 500 KB.
 
-Minified HTML: Your HTML is minified.
-HTML PERFORMANCE
+- [ ] Minified HTML: Your HTML is minified.
 
-Lazy loading: Images, scripts and CSS need to be lazy loaded to improve the response time of the current page (See details in their respective sections)
-BEST PRACTICES
+- [ ] Lazy loading: Images, scripts and CSS need to be lazy loaded to improve the response time of the current page (See details in their respective sections)
 
-Cookie size: If you are using cookies be sure each cookie doesn't exceed 4096 bytes and your domain name doesn't have more than 20 cookies.
-BEST PRACTICES
+- [ ] Cookie size: If you are using cookies be sure each cookie doesn't exceed 4096 bytes and your domain name doesn't have more than 20 cookies.
 
-Third party components:
-BEST PRACTICES
+- [ ] Third party components:
 
-DNS resolution: DNS of third-party services that may be needed are resolved in advance during idle time using dns-prefetch.
-REQUESTS
+- [ ] DNS resolution: DNS of third-party services that may be needed are resolved in advance during idle time using dns-prefetch.
 
-Preconnection: DNS lookup, TCP handshake and TLS negotiation with services that will be needed soon is done in advance during idle time using preconnect.
-REQUESTS
+- [ ] Preconnection: DNS lookup, TCP handshake and TLS negotiation with services that will be needed soon is done in advance during idle time using preconnect.
 
-Prefetching: Resources that will be needed soon (e.g. lazy loaded images) are requested in advance during idle time using prefetch.
-REQUESTS
+- [ ] Prefetching: Resources that will be needed soon (e.g. lazy loaded images) are requested in advance during idle time using prefetch.
 
-Preloading: Resources needed in the current page (e.g. scripts placed at the end of <body>) in advance using preload.
-REQUESTS
+- [ ] Preloading: Resources needed in the current page (e.g. scripts placed at the end of <body>) in advance using preload.
 
-Google PageSpeed: All your pages were tested (not only the homepage) and have a score of at least 90/100.
-TESTING
-SEO
-
-0 % SEO items are ✓
+- [ ] Google PageSpeed: All your pages were tested (not only the homepage) and have a score of at least 90/100.
  
+<br/>
+<br/>
  
+### SEO
 
-Google Analytics: Google Analytics is installed and correctly configured.
-SEO
+---
 
-Headings logic: Heading text helps to understand the content in the current page.
-SEO ACCESSIBILITY HTML
+- [ ] Google Analytics: Google Analytics is installed and correctly configured.
 
-sitemap.xml: A sitemap.xml exists and was submitted to Google Search Console.
-SEO
+- [ ] Headings logic: Heading text helps to understand the content in the current page.
 
-robots.txt: The robots.txt is not blocking webpages.
-SEO TESTING
+- [ ] sitemap.xml: A sitemap.xml exists and was submitted to Google Search Console.
 
-Structured Data: Pages using structured data are tested and are without errors. Structured data helps crawlers understand the content in the current page.
-SEO TESTING
+- [ ] robots.txt: The robots.txt is not blocking webpages.
 
-Sitemap HTML: An HTML sitemap is provided and is accessible via a link in the footer of your website.
-SEO HTML
+- [ ] Structured Data: Pages using structured data are tested and are without errors. Structured data helps crawlers understand the content in the current page.
 
-Pagination link tags: Provide rel="prev" and rel="next" to indicate paginated content.
-SEO HTML
-Project Name
-Page title or URL
-Developer's name or team
-0/47 ✓ high priority
-0/25 ✓ medium priority
-0/16 ✓ low priority
-F
-Front‑End_Checklist followed
+- [ ] Sitemap HTML: An HTML sitemap is provided and is accessible via a link in the footer of your website.
+
+- [ ] Pagination link tags: Provide rel="prev" and rel="next" to indicate paginated content.
+
