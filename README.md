@@ -43,7 +43,64 @@ a list of things to check before you mark a project as complete
 
 - [ ] make sure there is breathing room in margins
 
+### UX/UI
 
+---
+
+- [ ] white space
+- [ ] use of line
+- [ ] use of negative space
+- [ ] alignment
+- [ ] contrast
+- [ ] scale
+- [ ] typography
+
+1. Too many typefaces hinder good user experience
+2. Choose typefaces that compliment and contrast with one another
+3. Keep readability, legibility, and accessibility top of mind
+4. Great visual hierarchy improves UX
+5. Make your typography scalable
+6. Enrich UX with typography 
+7. Experiment with between 130%-180% for optimal readability and accessibility. The goal is to find a sweet spot — too much spacing, and it’s easy to get lost, too little, and it’s hard to read—test different scales on your typeface.
+
+- [ ] Check line spacing when changing fonts or font sizes. Different fonts have different maximum heights, so double-check line spacing for readability.
+
+- [ ] Limit line length to 70–80 characters. Long lines of text can be intimidating and confusing to follow.
+Small fonts should have more spacing because smaller fonts are more difficult to read so additional space makes it easier to parse.
+
+- [ ] Rule of thumb; text size should be 16 at minimum. This is obviously device-specific, but it frequently stands. If it’s a TV interface, though, for example, then the text should be even larger.
+
+- [ ] There must be a color contrast ratio of at least 4.5:1 between all text and background. Download the Stark plugin to ensure you’re meeting this standard in XD, Sketch, and Figma.
+
+- [ ] Do not rely on color alone to convey information. For example, an error state shouldn’t only be displayed with a red outline, use a warning icon and descriptive text as well to alert that an issue has occurred.
+
+- [ ] Text resize (1.4.4): Text must be able to be resized up to 200% without negatively affecting the ability to read content or use functions.
+
+- [ ] Images of text (1.4.5): Do not use images of text unless necessary (e.g., logo).
+
+- [ ] Select a font to work with. My favorite places to get high-quality UI fonts are Google fonts or Adobe fonts.
+
+- [ ] Establish a base font size. I start by establishing the most commonly used type scale for body copy like 16pt, for example, then determine a suitable line-height.
+
+- [ ] Line height. As I mentioned earlier, experiment with between 130%-180% for optimal readability. This ratio isn’t always accurate, but it’s a good place to start and then make adjustments as needed.
+
+- [ ] Define a scale. A scale provides consistency, rhythm, and hierarchy to our typography. To set type-scale for h1, h2, h3, body, captions, buttons, and so on, we need a scale value to multiply by our base font size. Common scales for type are 1.250x,1.414x, 1.5x, 1.618x. Again, find a scale that works for your typeface and UI.
+
+- [ ] Test scales on devices. Test font with different scales on multiple device sizes to decide on the right value.
+
+- [ ] no more than two font families
+
+- [ ] visual hierarchy for typography
+
+- [ ] letter spacing and line height
+
+- [ ] font weights and italics
+
+- [ ] color
+
+- [ ] visual hierarchy
+
+- [ ] do you have a pattern library for any elements that are commonly used?
 
 ### HEAD
 
